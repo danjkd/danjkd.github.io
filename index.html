@@ -11,6 +11,9 @@
     <!-- BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -51,7 +54,7 @@
     <section class="jumbotron text-center">
       <img src="img/pp.png" alt="profile-img" width="200" class="img-thumbnail rounded-circle" />
       <h1 class="display-4">Dan Marpaung</h1>
-      <p class="lead">Mobile Apps | Web Apps Developer</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -71,10 +74,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right">
             <p>I am an iOS, android and web apps developer with 5yrs of experience.</p>
           </div>
-          <div class="col-md-4">Skilled in Java, Swift, MySQL, PHP, spicy food and heavybag.</div>
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">Skilled in Java, Swift, MySQL, PHP, spicy food and heavybag.</div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -97,7 +100,7 @@
         </div>
         <div class="row justify-content-around">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="img/full.jpg" class="card-img-top" alt="1st Project" />
               <div class="card-body">
                 <p class="card-text">Apple - 2015</p>
@@ -105,7 +108,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="img/front.jpg" class="card-img-top" alt="2nd Project" />
               <div class="card-body">
                 <p class="card-text">Samsung - 2015</p>
@@ -113,7 +116,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="img/drone.jpg" class="card-img-top" alt="3rd Project" />
               <div class="card-body">
                 <p class="card-text">DJI - 2016</p>
@@ -121,7 +124,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
               <img src="img/develop.jpg" class="card-img-top" alt="4th Project" />
               <div class="card-body">
                 <p class="card-text">GoPro - 2017</p>
@@ -129,7 +132,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
               <img src="img/mobile.jpg" class="card-img-top" alt="5th Project" />
               <div class="card-body">
                 <p class="card-text">Apple - 2018</p>
@@ -137,7 +140,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="500">
               <img src="img/css.jpg" class="card-img-top" alt="6th Project" />
               <div class="card-body">
                 <p class="card-text">Coinbase - 2019</p>
@@ -156,6 +159,69 @@
     </section>
 
     <!-- AKHIR PROJECTS -->
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <a href="">
+            <img src="img/gallery/thumbnail/1.jpg" alt="image 1" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="">
+            <img src="img/gallery/thumbnail/2.jpg" alt="image 2" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="">
+            <img src="img/gallery/thumbnail/8.jpg" alt="image 3" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="">
+            <img src="img/gallery/thumbnail/4.jpg" alt="image 4" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="">
+            <img src="img/gallery/thumbnail/9.jpg" alt="image 5" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="">
+            <img src="img/gallery/thumbnail/6.jpg" alt="image 6" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="">
+            <img src="img/gallery/thumbnail/7.jpg" alt="image 7" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="">
+            <img src="img/gallery/thumbnail/3.jpg" alt="image 8" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="">
+            <img src="img/gallery/thumbnail/5.jpg" alt="image 9" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="">
+            <img src="img/gallery/thumbnail/10.jpg" alt="image 10" class="img-fluid gallery-img">
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- AKHIR GALLERY -->
 
     <!-- CONTACT -->
     <section id="contact">
@@ -211,7 +277,33 @@
     </footer>
     <!-- AKHIR FOOTER -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-img");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      })
+
+      AOS.init({
+        // membuat animasi muncul hanya 1x setelah di scroll
+        once: true,
+        duration: 2000,
+      }); 
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", {duration: 2, delay: 1.5, text: "Mobile Apps | Web Apps Developer"});
+      gsap.from(".jumbotron img", {duration: 1, rotateY: 360, opacity: 0});
+      gsap.from(".navbar", {duration: 1.5, y: "-100%", opacity: 0, ease: "bounce"});
+      gsap.from(".display-4", {duration: 1, x: -50, opacity: 0, delay: 0.5, ease: "back"});
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycby-g_yyzBwrqZoITbN6VFK-7xnzeeC_rdWQDbt1DsAJY68iHsfF_L-48CIT6de7OZCr/exec";

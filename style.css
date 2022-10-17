@@ -18,3 +18,12 @@ section {
 footer a {
   text-decoration: none;
 }
+
+.gallery-img {
+  width: 100%;
+}
+
+/* apapun yang ada di dalam gallery persis setelah row */
+#gallery .row > * {
+  padding: 0;
+}
