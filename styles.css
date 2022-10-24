@@ -5,6 +5,14 @@ html {
 .jumbotron {
   padding-top: 6rem;
   background-color: #e2edff;
+  height: 100vh;
+  position: relative;
+}
+
+.wave1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 #home a.navbar-brand:hover {
@@ -127,4 +135,11 @@ footer a {
 
 .keyboard-box:hover .keyboard-img {
   transform: translate3d(-50%, -52%, 50px) rotate(-10deg) scale(1.5);
+}
+
+/* Media Query untuk Mobile */
+@media (max-width: 576px) {
+  .btn-github {
+    width: 90%;
+  }
 }

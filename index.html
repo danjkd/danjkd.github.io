@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- My ICON -->
     <link rel="icon" href="img/favicon.ico" />
@@ -24,7 +24,7 @@
   </head>
   <body id="home">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow-sm sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow-sm sticky-top" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="https://github.com/danjkd/danjkd.github.io" target="_blank">Dan Marpaung</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,11 +51,12 @@
     <!-- AKHIR NAVBAR -->
 
     <!-- JUMBOTRON -->
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-center" id="welcome-section">
       <img src="img/pp.png" alt="profile-img" width="200" class="img-thumbnail rounded-circle" />
       <h1 class="display-4">Dan Marpaung</h1>
       <p class="lead"></p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <a href="https://github.com/danjkd?tab=repositories" target="_blank" class="btn btn-dark btn-github" id="profile-link">Follow my <i class="bi bi-github"></i> Github</a>
+      <svg class="wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
           fill-opacity="1"
@@ -100,50 +101,62 @@
         </div>
         <div class="row justify-content-around">
           <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="1000">
-              <img src="img/full.jpg" class="card-img-top" alt="1st Project" />
+            <div class="card project-tile" data-aos="flip-left" data-aos-duration="1000">
+              <img src="img/project1.png" class="card-img-top" alt="1st Project" />
               <div class="card-body">
-                <p class="card-text">Apple - 2015</p>
+                <h5 class="card-title">Marpaung Coding</h5>
+                <p class="card-text">2015</p>
+                <a href="https://danjkd.github.io/first/" class="btn btn-secondary" target="_blank">Go to Project &raquo;</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
-              <img src="img/front.jpg" class="card-img-top" alt="2nd Project" />
+            <div class="card project-tile" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+              <img src="img/project2.png" class="card-img-top" alt="2nd Project" />
               <div class="card-body">
-                <p class="card-text">Samsung - 2015</p>
+                <h5 class="card-title">Crisp Survey Form</h5>
+                <p class="card-text">2015</p>
+                <a href="https://danjkd.github.io/crisp-survey-form/" class="btn btn-secondary" target="_blank">Go to Project &raquo;</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
-              <img src="img/drone.jpg" class="card-img-top" alt="3rd Project" />
+            <div class="card project-tile" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+              <img src="img/project3.png" class="card-img-top" alt="3rd Project" />
               <div class="card-body">
-                <p class="card-text">DJI - 2016</p>
+                <h5 class="card-title">Bruce Lee Tribute Page</h5>
+                <p class="card-text">2016</p>
+                <a href="https://danjkd.github.io/bruce-lee-tribute/" class="btn btn-secondary" target="_blank">Go to Project &raquo;</a> 
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
-              <img src="img/develop.jpg" class="card-img-top" alt="4th Project" />
+            <div class="card project-tile" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
+              <img src="img/project4.png" class="card-img-top" alt="4th Project" />
               <div class="card-body">
-                <p class="card-text">GoPro - 2017</p>
+                <h5 class="card-title">Code~Currency</h5>
+                <p class="card-text">2017</p>
+                <a href="https://danjkd.github.io/bootstrap5/" class="btn btn-secondary" target="_blank">Go to Project &raquo;</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="500">
-              <img src="img/mobile.jpg" class="card-img-top" alt="5th Project" />
+            <div class="card project-tile" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="500">
+              <img src="img/project5.png" class="card-img-top" alt="5th Project" />
               <div class="card-body">
-                <p class="card-text">Apple - 2018</p>
+                <h5 class="card-title">Marpaung Coding</h5>
+                <p class="card-text">2018</p>
+                <a href="https://danjkd.github.io/second/" class="btn btn-secondary" target="_blank">Go to Project &raquo;</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
-              <img src="img/css.jpg" class="card-img-top" alt="6th Project" />
+            <div class="card project-tile" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
+              <img src="img/project6.png" class="card-img-top" alt="6th Project" />
               <div class="card-body">
-                <p class="card-text">Coinbase - 2019</p>
+                <h5 class="card-title">Cat Photo Gallery</h5>
+                <p class="card-text">2019</p>
+                <a href="https://danjkd.github.io/" class="btn btn-secondary" target="_blank">Go to Project &raquo;</a>
               </div>
             </div>
           </div>
