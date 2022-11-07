@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+* {
+  font-family: "Acme", sans-serif;
+}
+
 html {
   background-color: #eee;
 }
@@ -15,15 +21,20 @@ html {
   left: 0;
 }
 
+#home a.navbar-brand,
+#home a.nav-link {
+  letter-spacing: 1px;
+}
+
 #home a.navbar-brand:hover {
   color: #000;
-  transform: scale(1.2);
-  transition: 0.9s;
+  transform: scale(1.3);
+  transition: 0.6s;
 }
 
 #home a.nav-link:hover {
   color: #000;
-  transition: 0.9s;
+  transition: 0.6s;
 }
 
 #projects {
