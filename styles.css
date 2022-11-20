@@ -88,7 +88,7 @@ footer a {
 }
 
 .keyboard-box::after {
-  content: "KEYBOARD";
+  content: "CERTIFICATE";
   position: absolute;
   color: #fff;
   font-size: 4em;
@@ -141,7 +141,7 @@ footer a {
   top: 52%;
   left: 50%;
   transform: translate3d(-50%, -52%, 120px);
-  max-width: 290px;
+  max-width: 250px;
   transition: 0.5s;
 }
 
